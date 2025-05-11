@@ -39,7 +39,7 @@ When we remove the peak element (or root):
 - Replace it with the very last element
 - Reduce the heap size by 1
 - Heapify down this element until:
-  - It becomes lower than its parent, and
+  - It becomes higher than its parent, and
   - It becomes lower than its children
 
 ## Time Complexity
